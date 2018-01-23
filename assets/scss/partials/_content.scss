@@ -1,0 +1,23 @@
+/**
+ * partials/articles/content
+ * ---
+ *
+ */
+
+.slider, .slick-slide img {
+  height: 40vh;
+  max-width: 100%;
+  width: auto !important;
+}
+
+.slick-slide {
+  text-align: center;
+}
+
+.content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  height: 50px;
+}

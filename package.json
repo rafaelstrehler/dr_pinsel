@@ -1,0 +1,33 @@
+{
+  "name": "parent",
+  "version": "1.0.0",
+  "description": "deep Parent-Theme configuration for gulp utilities and bootstrap support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dark_confidant@bitbucket.org/deepag/deep-wordpress-parent-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1",
+    "lightbox2": "^2.9.0",
+    "slick-carousel": "^1.6.0"
+  },
+  "dependencies": {
+    "sortablejs": "^1.7.0"
+  }
+}

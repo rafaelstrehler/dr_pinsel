@@ -1,0 +1,24 @@
+/**
+ * main.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+
+// Partials
+@import "partials/bootstrap_xxs";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/content";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/typography";
+@import "slick/slick_all";
+
+// Third party
+//@import "slick/slick_all";
+@import "btstrp/bootstrap";
+//@import "lightbox/lightbox";
