@@ -43,7 +43,11 @@ jQuery(document).ready(function() {
   jQuery('.slider').slick({
     slidesToShow: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
   });
 
 });
