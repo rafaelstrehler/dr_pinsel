@@ -13,6 +13,7 @@
     <title><?php wp_title(); ?></title>
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <?php wp_head(); ?>
 </head>
