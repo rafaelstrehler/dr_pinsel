@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<div class="container">
+<div class="container content">
   <!-- contact form -->
   <?php
   if (have_posts()) {
