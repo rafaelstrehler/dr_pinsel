@@ -17,7 +17,9 @@ get_header(); ?>
 
 <?php
 else: ?>
-<a href="<?php echo esc_url( wp_login_url( get_permalink() ) ); ?>"> Login </a>
+  <div class="container">
+    <a href="<?php echo esc_url( wp_login_url( get_permalink() ) ); ?>">Bitte melden Sie sich an! </a>
+  </div>
 <?php
 endif;
 
